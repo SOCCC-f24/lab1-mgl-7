@@ -8,5 +8,10 @@ def main(cel):
     return c2f(cel)
 
 if __name__ == "__main__":
-    cel = int(input("What do you want Celsius to be? "))        # input and Chanes to interger
+    cel = input("What do you want Celsius to be? ")      # input and Chanes to interger
+    dig= cel.isdigit() #checks if you include any letters
+    while dig==False: #if letter is included repeat until user stops
+        cel=input("Please Only include Numbers")
+        dig=cel.isdigit()
+    cel=int(cel) #turns string in interger
     print(main(cel))  # output
