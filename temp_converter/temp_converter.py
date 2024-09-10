@@ -3,6 +3,9 @@
 # process
 #def c2f(c):
     #return ((c*9)/5)+32 #PEMDAS
+def f2c_raw(f):
+    return f-32*5/9
+    
 def f2c_op(f):
     return (f-32)*5/9 #Fahrenheit to Celsius
 
