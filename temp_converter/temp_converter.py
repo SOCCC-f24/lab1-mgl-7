@@ -8,7 +8,7 @@ def f2c_op(f):
 
 def main():
     f=input("What Fahrenheit Temp do you want?") #input
-    dig=f.isdigit()
+    dig=f.isdigit() 
     while dig==False: #If it includes any letters it will repeat until only Numbers
         f=input("Please ONLY Include Numbers")
         dig=f.isdigit()
