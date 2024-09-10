@@ -1,5 +1,5 @@
 import pytest
-from temp_converter import c2f
+from temp_converter import f2c_op
 
 def test_c2f_pass():
     # Valid case for c2f
