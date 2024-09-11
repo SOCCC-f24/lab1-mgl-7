@@ -15,6 +15,7 @@ def main():
     while dig==False: #If it includes any letters it will repeat until only Numbers
         f=input("Please ONLY Include Numbers")
         dig=f.isdigit()
+        #If only numbers code will continue
     f=int(f)
     c=f2c_op(f)
     print(f"{f}F is {c} C")
